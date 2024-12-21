@@ -1,5 +1,6 @@
-import { unstable_cache } from "next/cache";
+"use server"
 
+import { unstable_cache } from "next/cache";
 
 export const getDailyPrompt = unstable_cache(
     async () => {
